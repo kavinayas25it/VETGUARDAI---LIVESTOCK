@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+
+  <head>
+    <meta name="theme-color" content="#0f766e" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>livestock-frontend</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script type="text/javascript">
+  (function(d, t) {
+      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      v.onload = function() {
+        window.voiceflow.chat.load({
+          verify: { projectID: '6af08f47abaa1b1c53e74d64' },
+          url: 'https://general-runtime.voiceflow.com',
+          voice: {
+            url: 'https://runtime-api.voiceflow.com'
+          }
+        });
+      }
+      v.src = 'https://cdn.voiceflow.com/widget-next/bundle.mjs'; v.type = 'text/javascript'; s.parentNode.insertBefore(v, s);
+  })(document, 'script');
+</script>
+  </body>
+</html>
